@@ -1,6 +1,6 @@
 # Price Options 
 
-Materials for live-coding tech test. This test is focused on the candidate's knowledge of Django REST Framework and/or React.
+Rest Api web Application for option pricing and marketing data storage
 
 ## App structure
 This is a monorepo containing one app.
@@ -17,7 +17,7 @@ This is a monorepo containing one app.
 
   4. You should see the site is running on the backend ( localhost:8000 ).
 
-Step 1 is a one-off step. Step 2 is only required if you have materially altered the project since last build, e.g. by changing `api/requirements.txt`. Code changes are picked up automatically by the Django and Node dev servers and they will reload the proejct modules upon detecting a change.
+Step 1 is a one-off step. Step 2 is only required if you have materially altered the project since last build, e.g. by changing `web/requirements.txt`. Code changes are picked up automatically by the Django server.
 
 ## Setup to run api tests
 You do not need to follow the previous sections to run the tests. Just:
